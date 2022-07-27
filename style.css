@@ -1,5 +1,96 @@
-p {
+body{
+  
+    background: linear-gradient(#8ee9e9,rgb(8, 66, 88));
+   
+	
+}
+
+#robot{
+    
+    display: block;
+    height: 50%;
+    width: 50%;
+    border: 10px solid #00FF00;
+    padding: 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ava{
+    display: block;
+    height: 50%;
+    width: 50%;
+    border: 10px solid #00FF00;
+    padding: 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#blade_runner{
+    display: block;
+    height: 50%;
+    width: 50%;
+    border: 10px solid #00FF00;
+    padding: 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h1{
+     text-align: center;
+     height: 100px;
+     border: 10px solid #FFFF00;
+     margin: 20px;
+}
+
+h2{
+
+    height: 10px;
+    margin: 20px;
+
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-right: 20px;
+}
+
+p{
     text-align: center;
     font-family: Tahoma, sans-serif;
-    background-color:gainsboro;
+    border: 10px solid #00FFFF;
+    
+}
+
+b{
+    color: #00FF00;
+}
+
+.experiencias{
+    background-color: aliceblue;
+
+}
+
+.itens{
+    list-style-type:square;
+    font-style: italic;
+}
+
+
+
+#frog{
+    height: 20%;
+    width: 20%;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
