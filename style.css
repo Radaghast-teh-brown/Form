@@ -1,0 +1,39 @@
+header{
+    padding: 10px;
+    height: 100px;
+    font-size: Verdana ;
+    color: #F0AC00;
+    background-color: rgba(0, 27, 177, 0.5);
+}
+
+header:hover{
+    font-size: 20px;
+}
+
+body{
+    
+    background-image: url("wall.png");
+}
+
+h1{
+    text-align: center;
+    text-shadow: 0cm;
+    text-emphasis-color: blue;
+}
+
+section{
+    color: #F0AC00;
+    position: r;
+    left: 30px;
+    top: 30px;
+    width: 940px;
+    height: 400px;
+    padding: 50px 20px;
+    margin:auto;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+p:hover{
+    font-size: 25px;
+}
