@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>  Contatos - Barbearia do Magno</title>
+    <link rel ="stylesheet" href="reset.css">
+    <link rel = "stylesheet" href="style1.css">
+
+</head>
+<body>
+    <header>
+        <div class = "caixa">
+            <h1> <img class = "cabeçalho" src = "logo1.png" ></h1>
+            <nav>
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a> Produtos </a></li>
+                    <li><a> Contatos </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <label for = "nome">Nome</label>
+            <input type = "text" id = "nome" class = "input-padrao">
+
+            <label for = "emal">Email</label>
+            <input type = "text" id = "email" class = "input-padrao">
+
+            <label for = "telefone"> Telefone</label>
+            <input type = "text" id = "telefone" class = "input-padrao">
+
+            <label for = "cidade">Cidade</label>
+            <input type = "text" id = "cidade" class = "input-padrao">
+
+            <label for = "mensagem"> Mensagem</label>
+            <textarea id = "mensagem"> </textarea>
+
+            <di>
+                <p> Como prefere nosso contato? </p>
+                <label for = "radio-email"> <input type = "radio"  name = "contato" value = "email" id = "radio-email">
+                    Email</label>
+               
+                <label for = "radio-telefone"> <input type = "radio" name = "contato" value = "telefone" id = "radio-telefone">Telefone</label>
+               
+
+                <label for = "radio-whatsapp"><input type = "radio" name = "contato" value = "whatsapp" id = "radio-whatsapp">Whatsapp</label>
+                
+            </div>
+
+            <div>
+                <p> Qual horário prefere ser atendido? </p>
+                <select>
+                    <option> Manhã </option>
+                    <option> Tarde </option>
+                    <option> Noite </option>
+                </select>
+            </div>
+            
+            <label class = "checkbox"><input type = "checkbox"> Gostaria de receber informações por email? </label>
+
+            <input type = "submit" value = "Enviar Formulário">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright Barbearia Alura - 2022</p>
+    </footer>
+<body>
+</html>

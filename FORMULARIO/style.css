@@ -1,0 +1,86 @@
+header{
+    height: 80px;
+    position: relative;
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #000d55;
+}
+
+.cabecalho-imagem{
+    width: 5%;
+    position: relative;
+    padding: 10px;
+    display: inline;
+}
+ h1{
+    display: inline;
+    position: absolute;
+    right:400px;
+    text-shadow: 0cm;
+    text-emphasis-color: blue;
+    padding-top: 25px;
+}
+
+body{
+    background-image: url("wall.png");
+}
+
+main{
+    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-left:20px;
+}
+
+.nomes{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: Tahoma;
+    position: relative;
+    display:block;
+    padding: 20px;
+
+}
+p:hover{
+    font-size: 20px;
+}
+
+footer{
+    background: rgba(1, 7, 41);
+    height: 40px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+form label{
+    font-size: 20px;
+    color:#FFFFFF;
+    display: block;
+    margin-left: 400px;
+    margin-top: 10px;
+    
+}
+
+form input{
+    font-size: 20px;
+    display:block;
+    margin-left: 400px;
+    margin-top: 10px;
+    padding: 5px 50px;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    display:block;
+    margin-left: 400px;
+    margin-top: 10px;
+    padding: 5px 50px;
+}
+
+form select{
+    display:block;
+    margin-left: 400px;
+    margin-top: 10px;
+    padding: 5px 50px;
+}
