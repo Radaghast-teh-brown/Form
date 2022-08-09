@@ -1,0 +1,55 @@
+header{
+    height: 80px;
+    position: relative;
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #000d55;
+}
+
+.cabecalho-imagem{
+    width: 5%;
+    position: relative;
+    padding: 10px;
+    display: inline;
+}
+ h1{
+    display: inline;
+    position: absolute;
+    right:460px;
+    text-shadow: 0cm;
+    text-emphasis-color: blue;
+    padding: 15px;
+}
+
+body{
+    background-image: url("wall.png");
+}
+
+main{
+    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-left:20px;
+}
+
+
+
+.nomes{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: Tahoma;
+    position: relative;
+    display:block;
+    padding: 20px;
+
+}
+p:hover{
+    font-size: 20px;
+}
+
+footer{
+    background: rgba(1, 7, 41);
+    height: 40px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
