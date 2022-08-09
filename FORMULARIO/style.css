@@ -15,10 +15,10 @@ header{
  h1{
     display: inline;
     position: absolute;
-    right:400px;
+    right:460px;
     text-shadow: 0cm;
     text-emphasis-color: blue;
-    padding-top: 25px;
+    padding: 15px;
 }
 
 body{
@@ -30,6 +30,8 @@ main{
     margin-top: 50px;
     margin-left:20px;
 }
+
+
 
 .nomes{
     color: #FFFFFF;
@@ -50,37 +52,4 @@ footer{
     padding: 10px;
     color: white;
     text-align: center;
-}
-
-form label{
-    font-size: 20px;
-    color:#FFFFFF;
-    display: block;
-    margin-left: 400px;
-    margin-top: 10px;
-    
-}
-
-form input{
-    font-size: 20px;
-    display:block;
-    margin-left: 400px;
-    margin-top: 10px;
-    padding: 5px 50px;
-}
-
-p{
-    font-size: 20px;
-    color: white;
-    display:block;
-    margin-left: 400px;
-    margin-top: 10px;
-    padding: 5px 50px;
-}
-
-form select{
-    display:block;
-    margin-left: 400px;
-    margin-top: 10px;
-    padding: 5px 50px;
 }
