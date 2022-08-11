@@ -15,7 +15,8 @@ header{
  h1{
     display: inline;
     position: absolute;
-    right:460px;
+    right:370px;
+    top: 10px;
     text-shadow: 0cm;
     text-emphasis-color: blue;
     padding: 15px;
@@ -26,11 +27,11 @@ body{
 }
 
 main{
+
     margin-bottom: 80px;
     margin-top: 50px;
-    margin-left:20px;
+    margin-left:450px;
 }
-
 
 
 .nomes{
@@ -42,9 +43,40 @@ main{
     padding: 20px;
 
 }
-p:hover{
+
+
+label{
+    color: white;
+    display: inline;
+    font-size: large;
     font-size: 20px;
 }
+input{
+    width: 40%;
+    color: black;
+    display: block;
+    font-size: 20px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    
+}
+
+section option{
+  
+    color: white;
+    display: block;
+  
+    
+}
+p{
+    width: 40%;
+    color: white;
+    display: block;
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+
 
 footer{
     background: rgba(1, 7, 41);
